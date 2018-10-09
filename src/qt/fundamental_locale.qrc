@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/fundamental_bg.qm</file>
+        <file alias="ca">locale/fundamental_ca.qm</file>
+        <file alias="cs">locale/fundamental_cs.qm</file>
+        <file alias="da">locale/fundamental_da.qm</file>
+        <file alias="de">locale/fundamental_de.qm</file>
+        <file alias="en">locale/fundamental_en.qm</file>
+        <file alias="en_US">locale/fundamental_en_US.qm</file>
+        <file alias="es">locale/fundamental_es.qm</file>
+        <file alias="fi">locale/fundamental_fi.qm</file>
+        <file alias="fr_FR">locale/fundamental_fr_FR.qm</file>
+        <file alias="hr">locale/fundamental_hr.qm</file>
+        <file alias="it">locale/fundamental_it.qm</file>
+        <file alias="ja">locale/fundamental_ja.qm</file>
+        <file alias="ko_KR">locale/fundamental_ko_KR.qm</file>
+        <file alias="nl">locale/fundamental_nl.qm</file>
+        <file alias="pl">locale/fundamental_pl.qm</file>
+        <file alias="pt">locale/fundamental_pt.qm</file>
+        <file alias="pt_BR">locale/fundamental_pt_BR.qm</file>
+        <file alias="ro_RO">locale/fundamental_ro_RO.qm</file>
+        <file alias="ru">locale/fundamental_ru.qm</file>
+        <file alias="sk">locale/fundamental_sk.qm</file>
+        <file alias="sv">locale/fundamental_sv.qm</file>
+        <file alias="tr">locale/fundamental_tr.qm</file>
+        <file alias="uk">locale/fundamental_uk.qm</file>
+        <file alias="zh_CN">locale/fundamental_zh_CN.qm</file>
+        <file alias="zh_TW">locale/fundamental_zh_TW.qm</file>
+    </qresource>
+</RCC>

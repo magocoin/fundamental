@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Fundamental
+Comment=Fundamental P2P Cryptocurrency
+Comment[fr]=Fundamental, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Fundamental, eşten eşe kriptografik sanal para birimi
+Exec=fundamental-qt %u
+Terminal=false
+Type=Application
+Icon=fundamental128
+MimeType=x-scheme-handler/fundamental;
+Categories=Office;Finance;

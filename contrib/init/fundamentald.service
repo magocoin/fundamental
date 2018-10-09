@@ -1,0 +1,26 @@
+[Unit]
+Description=Fundamental's distributed currency daemon
+After=network.target
+
+[Service]
+User=fundamental
+Group=fundamental
+
+Type=forking
+PIDFile=/var/lib/fundamentald/fundamentald.pid
+
+ExecStart=/usr/bin/fundamentald -daemon -pid=/var/lib/fundamentald/fundamentald.pid \
+          -conf=/etc/fundamental/fundamental.conf -datadir=/var/lib/fundamentald
+
+ExecStop=-/usr/bin/fundamental-cli -conf=/etc/fundamental/fundamental.conf \
+         -datadir=/var/lib/fundamentald stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

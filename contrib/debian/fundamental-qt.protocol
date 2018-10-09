@@ -1,0 +1,11 @@
+[Protocol]
+exec=fundamental-qt '%u'
+protocol=fundamental
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

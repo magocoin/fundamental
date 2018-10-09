@@ -1,0 +1,26 @@
+# /etc/conf.d/fundamentald: config file for /etc/init.d/fundamentald
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/fundamental/fundamental.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/fundamentald"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/fundamentald.pid"
+
+# Where to write fundamentald data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/fundamentald"
+
+# User and group to own fundamentald process
+#BITCOIND_USER="fundamental"
+#BITCOIND_GROUP="fundamental"
+
+# Path to fundamentald executable
+#BITCOIND_BIN="/usr/bin/fundamentald"
+
+# Nice value to run fundamentald under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
