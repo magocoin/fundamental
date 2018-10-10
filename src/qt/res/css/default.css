@@ -154,7 +154,7 @@ background-color:transparent;
 }
 
 .QValidatedLineEdit, .QLineEdit { /* Text Entry Fields */
-border: 1px solid #37b1fe;
+border: 1px solid #666666;
 font-size:11px;
 min-height:25px;
 outline:0;
@@ -174,7 +174,7 @@ background-color:#f2f2f2;
 /****************************************************************************************/
 
 QPushButton { /* Global Button Style */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #cc3333, stop: .1 #8f9fa8, stop: .95 #8f9fa8, stop: 1 #cc3333);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #cc3333, stop: .1 #666666, stop: .95 #666666, stop: 1 #cc3333);
 border:0;
 border-radius:3px;
 color:#ffffff;
@@ -187,7 +187,7 @@ padding-bottom:5px;
 }
 
 QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #009191, stop: .1 #8f9fa8, stop: .95 #8f9fa8, stop: 1 #009191);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #009191, stop: .1 #666666, stop: .95 #666666, stop: 1 #009191);
 }
 
 QPushButton:focus {
@@ -200,7 +200,7 @@ border:1px solid #333;
 }
 
 QComboBox { /* Dropdown Menus */
-border:1px solid #8f9fa8;
+border:1px solid #666666;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
@@ -212,7 +212,7 @@ background:#f2f2f2;
 }
 
 QComboBox:editable {
-background:#8f9fa8;
+background:#666666;
 color:#616161;
 border:0px solid transparent;
 }
@@ -259,7 +259,7 @@ selection-color:transparent;
 }
 
 QAbstractSpinBox {
-border:1px solid #8f9fa8;
+border:1px solid #666666;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
@@ -272,8 +272,8 @@ subcontrol-position: top right;
 width:21px;
 background:#fcfcfc;
 border-left:0px;
-border-right:1px solid #8f9fa8;
-border-top:1px solid #8f9fa8;
+border-right:1px solid #666666;
+border-top:1px solid #666666;
 border-bottom:0px;
 padding-right:1px;
 padding-left:5px;
@@ -291,8 +291,8 @@ width:21px;
 background:#fcfcfc;
 border-top:0px;
 border-left:0px;
-border-right:1px solid #8f9fa8;
-border-bottom:1px solid #8f9fa8;
+border-right:1px solid #666666;
+border-bottom:1px solid #666666;
 padding-right:1px;
 padding-left:5px;
 padding-bottom:2px;
@@ -558,7 +558,7 @@ padding-right:10px;
 }
 
 QDialog#SignVerifyMessageDialog QPlainTextEdit { /* Message Signing Text */
-border:1px solid #37b1fe;
+border:1px solid #666666;
 background-color:#fff;
 }
 
@@ -731,7 +731,7 @@ padding-bottom:5px;
 }
 
 QWidget#PrivacyDialog QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #009191, stop: .1 #01c4c4, stop: .95 #01c4c4, stop: 1 #009191);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #666666, stop: .1 #fff, stop: .95 #fff, stop: 1 #666666);
 }
 
 QWidget#PrivacyDialog QPushButton:focus {
@@ -942,7 +942,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#37b1fe;
+background-color:#666666;
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -968,7 +968,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelPendingText { /* Pending Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#37b1fe;
+background-color:#666666;
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -994,7 +994,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelImmatureText { /* Immature Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#37b1fe;
+background-color:#666666;
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1018,7 +1018,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#37b1fe;
+background-color:#666666;
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1304,7 +1304,7 @@ min-height:25px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
-color:#37b1fe;
+color:#666666;
 font-weight:bold;
 font-size:14px;
 }
@@ -1423,7 +1423,7 @@ min-height:27px;
 /**************************** SEND COINS ENTRY ******************************************/
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
-background-color:#37b1fe;
+background-color:#616161;
 min-width:102px;
 font-weight:bold;
 font-size:11px;
