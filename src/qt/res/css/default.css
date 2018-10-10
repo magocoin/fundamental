@@ -1,8 +1,8 @@
 /****************************************************************************************/
-/*************** [COLOR CODES] DARK :#4EB4C3 4EB4C3 LIGHT :#37b1fe  37b1fe *****************/
+/*************** [COLOR CODES] DARK :#666666 666666 LIGHT :#8f9fa8  8f9fa8 *****************/
 /* hover1: #009191 009191 hover2: #01c4c4 01c4c4
 /* button1 #cc3333 cc3333
-/* privacy  #4EB4C3 ,  #4EB4C3 956E47
+/* privacy  #666666 ,  #666666 956E47
 /****************************************************************************************/
 
 
@@ -113,7 +113,7 @@ background-color:#666666;
 }
 
 QWidget {
-selection-background-color:#37b1fe; /* Object highlight color */
+selection-background-color:#666666; /* Object highlight color */
 selection-color:#fff;
 outline:0; /* Remove Annoying Focus Rectangle */
 }
@@ -187,7 +187,7 @@ padding-bottom:5px;
 }
 
 QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #009191, stop: .1 #666666, stop: .95 #666666, stop: 1 #009191);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #33cc33, stop: .1 #666666, stop: .95 #666666, stop: 1 #33cc33);
 }
 
 QPushButton:focus {
@@ -311,7 +311,7 @@ outline:0;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #37b1fe, stop: 1 #37b1fe);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #666666, stop: 1 #666666);
 color:#fff;
 min-height:25px;
 font-weight:bold;
@@ -731,7 +731,7 @@ padding-bottom:5px;
 }
 
 QWidget#PrivacyDialog QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #666666, stop: .1 #fff, stop: .95 #fff, stop: 1 #666666);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #666666, stop: .1 #666666, stop: .95 #666666, stop: 1 #666666);
 }
 
 QWidget#PrivacyDialog QPushButton:focus {
