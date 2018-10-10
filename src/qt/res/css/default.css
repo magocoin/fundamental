@@ -39,7 +39,7 @@ padding-left: 10px;
 }
 
 QMenuBar::item:selected {
-background-color:#f8f6f6;
+background-color:#4d94ff;
 }
 
 QMenu {
@@ -51,7 +51,7 @@ color:#333;
 }
 
 QMenu::item:selected {
-background-color:#f2f0f0;
+background-color:#4d94ff;
 color:#333;
 }
 
@@ -69,11 +69,11 @@ border:0px solid #333;
 min-height:2.5em;
 padding: 0em 1em;
 font-weight:bold;
-color:#fff;
+color:#4d94ff;
 }
 
 QToolBar > QToolButton:checked {
-background-color:#fff;
+background-color:#4d94ff;
 color:#333;
 font-weight:bold;
 }
@@ -109,7 +109,7 @@ color:#333;
 }
 
 QTabBar::tab:hover:!selected {
-background-color:#dedbe5;
+background-color:#4d94ff;
 }
 
 QWidget {
@@ -718,7 +718,7 @@ background-color:#37b1fe;
 }
 
 QWidget#PrivacyDialog QPushButton {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #4EB4C3, stop: .1 #4EB4C3, stop: .95 #4EB4C3, stop: 1 #4EB4C3);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #37b1fe, stop: .1 #37b1fe, stop: .95 #37b1fe, stop: 1 #37b1fe);
 border:0;
 border-radius:3px;
 color:#ffffff;
@@ -752,7 +752,7 @@ color:#818181;
 }
 
 QWidget#PrivacyDialog QProgressBar#obfuscationProgress::chunk {
-background-color: #4EB4C3;
+background-color: #37b1fe;
 width:1px;
 }
 
@@ -955,7 +955,7 @@ QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -980,6 +980,8 @@ min-height:35px;
 QWidget .QFrame#frame .QLabel#labelUnconfirmed { /* Pending Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
+font-weight:bold;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1028,6 +1030,8 @@ min-height:35px;
 QWidget .QFrame#frame .QLabel#labelTotal { /* Total Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
+font-weight:bold;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1064,7 +1068,7 @@ QWidget .QFrame#frame_4 .QLabel#labelzBalance { /* Available zWIRE Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1084,7 +1088,7 @@ QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmed { /* Unconfirmed zWIRE 
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1104,7 +1108,7 @@ QWidget .QFrame#frame_4 .QLabel#labelzBalanceMature { /* Mature zWIRE Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1124,7 +1128,7 @@ QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmature { /* Immature zWIRE Balanc
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1155,7 +1159,7 @@ QWidget .QFrame#frame_3 .QLabel#labelBalancez { /* Available WIRE Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1175,7 +1179,7 @@ QWidget .QFrame#frame_3 .QLabel#labelzBalancez { /* Available zWIRE Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1194,8 +1198,8 @@ font-size:14px;
 QWidget .QFrame#frame_3 .QLabel#labelLockedBalance { /* Available zWIRE Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
-font-weight:normal;
-color:#37b1fe;
+font-weight:bold;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1214,8 +1218,8 @@ font-size:14px;
 QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalance { /* Available zWIRE Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
-font-weight:normal;
-color:#37b1fe;
+font-weight:bold;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1235,7 +1239,7 @@ QWidget .QFrame#frame_3 .QLabel#labelTotalz { /* Available total Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
-color:#37b1fe;
+color:#fff;
 margin-left:0px;
 }
 
@@ -1247,13 +1251,13 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/wire_logo_horizontal');
+background-image: url(':/images/fundamental_logo_horizontal');
 background-repeat:none;
 }
 
 QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
 min-width:180px;
-color:#37b1fe;
+color:#fff;
 margin-left:67px;
 margin-top:83px;
 margin-right:5px;
