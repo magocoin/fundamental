@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMIPCOINs from being stolen by malware infecting your computer.</source>
+        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMs from being stolen by malware infecting your computer.</source>
         <translation>Fundamental сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Fundamental от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDMIPCOIN&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ FDMIPCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDM&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ FDM&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1516,32 +1516,32 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 FDMIPCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 FDM</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 FDMIPCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 FDM</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 FDMIPCOIN для анонимизации 10000 FDMIPCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 FDM to anonymize 10000 FDM</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 FDM для анонимизации 10000 FDM</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 FDMIPCOIN для анонимизации 10000 FDMIPCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 FDM to anonymize 10000 FDM</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 FDM для анонимизации 10000 FDM</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 FDMIPCOIN per 10000 FDMIPCOIN you anonymize.</source>
-        <translation>0.1 FDMIPCOIN за 10000 FDMIPCOIN которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 FDM per 10000 FDM you anonymize.</source>
+        <translation>0.1 FDM за 10000 FDM которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1684,8 +1684,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming FDMIPCOIN which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих FDMIPCOIN, которые автоматически конвертируются в zFDM благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming FDM which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих FDM, которые автоматически конвертируются в zFDM благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zFDM</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Вид</translation>
     </message>
     <message>
-        <source>FDMIPCOIN Balances</source>
-        <translation>Баланс FDMIPCOIN</translation>
+        <source>FDM Balances</source>
+        <translation>Баланс FDM</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1891,8 +1891,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>FDMIPCOIN:</source>
-        <translation>FDMIPCOIN:</translation>
+        <source>FDM:</source>
+        <translation>FDM:</translation>
     </message>
     <message>
         <source>zFDM:</source>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>FDMIPCOIN which were anonymized via Zerocin Protocol</source>
-        <translation>FDMIPCOIN, который был анонимно использован через Zerocoin протокол</translation>
+        <source>FDM which were anonymized via Zerocin Protocol</source>
+        <translation>FDM, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 FDMIPCOIN</source>
-        <translation>0 FDMIPCOIN</translation>
+        <source>0 FDM</source>
+        <translation>0 FDM</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>

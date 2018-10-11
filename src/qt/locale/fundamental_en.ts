@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMIPCOINs from being stolen by malware infecting your computer.</source>
+        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDMIPCOIN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDM&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1953,12 +1953,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1968,12 +1968,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
+        <source>This option is the quickest and will cost about ~0.025 FDM to anonymize 10000 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
+        <source>This option is moderately fast and will cost about 0.05 FDM to anonymize 10000 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1983,7 +1983,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 FDMIPCOIN per 10000 FDMIPCOIN you anonymize.</source>
+        <source>0.1 FDM per 10000 FDM you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,7 +2162,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming FDMIPCOIN which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming FDM which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2173,7 +2173,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough FDMIPCOIN for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough FDM for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2348,7 +2348,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     </message>
     <message>
         <location line="+43"/>
-        <source>FDMIPCOIN Balances</source>
+        <source>FDM Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2449,7 +2449,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     </message>
     <message>
         <location line="+36"/>
-        <source>FDMIPCOIN:</source>
+        <source>FDM:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked FDMIPCOIN or Masternode collaterals. These are excluded from zFDM minting.</source>
+        <source>Locked FDM or Masternode collaterals. These are excluded from zFDM minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2481,7 +2481,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 FDMIPCOIN</source>
+        <source>0.000 000 00 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked FDMIPCOINs. These can be used for zFDM minting.</source>
+        <source>Unlocked FDMs. These can be used for zFDM minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2716,12 +2716,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>FDMIPCOIN which were anonymized via Zerocin Protocol</source>
+        <source>FDM which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin FDMIPCOIN (zFDM)</source>
+        <source>Zerocoin FDM (zFDM)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2771,7 +2771,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 FDMIPCOIN</source>
+        <source>0.000 000 00 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 FDMIPCOIN</source>
+        <source>0 FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,12 +4253,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uFDMs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uFDMs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4324,7 +4324,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized FDMIPCOIN</source>
+        <source>Anonymized FDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 FDMIPCOIN.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 FDM.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5811,12 +5811,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5966,12 +5966,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Fundamental Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FDMIPCOIN.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FDM.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 FDMIPCOIN.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 FDM.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6031,8 +6031,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fundamental Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>(22123 could be used only on mainnet)</source>
-        <translation type="unfinished">(22123 could be used only on mainnet)</translation>
+        <source>(32123 could be used only on mainnet)</source>
+        <translation type="unfinished">(32123 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6046,7 +6046,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Fundamental Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 22123 for mainnet)</source>
+        <source>(must be 32123 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Fundamental Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in FDMIPCOIN/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in FDM/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

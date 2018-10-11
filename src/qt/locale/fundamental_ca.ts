@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMIPCOINs from being stolen by malware infecting your computer.</source>
-        <translation>Fundamental es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus FDMIPCOIN de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMs from being stolen by malware infecting your computer.</source>
+        <translation>Fundamental es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus FDM de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDMIPCOIN&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES FDMIPCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDM&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES FDMS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 FDMIPCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 FDM</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 FDMIPCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 FDM</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 FDMIPCOIN per anonimitzar 10000 FDMIPCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 FDM to anonymize 10000 FDM</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 FDM per anonimitzar 10000 FDM</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 FDMIPCOIN per anonimitzar 10000 FDMIPCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 FDM to anonymize 10000 FDM</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 FDM per anonimitzar 10000 FDM</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1271,8 +1271,8 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>FDMIPCOIN:</source>
-        <translation>FDMIPCOIN:</translation>
+        <source>FDM:</source>
+        <translation>FDM:</translation>
     </message>
     <message>
         <source>zFDM:</source>
@@ -1304,8 +1304,8 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin FDMIPCOIN (zFDM)</source>
-        <translation>Zerocoin FDMIPCOIN (zFDM)</translation>
+        <source>Zerocoin FDM (zFDM)</source>
+        <translation>Zerocoin FDM (zFDM)</translation>
     </message>
     <message>
         <source>0</source>
@@ -1316,8 +1316,8 @@
         <translation>zFDM</translation>
     </message>
     <message>
-        <source>0.000 000 00 FDMIPCOIN</source>
-        <translation>0.000 000 00 FDMIPCOIN</translation>
+        <source>0.000 000 00 FDM</source>
+        <translation>0.000 000 00 FDM</translation>
     </message>
     <message>
         <source>Reset</source>

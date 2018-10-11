@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMIPCOINs from being stolen by malware infecting your computer.</source>
-        <translation>Fundamental se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus FDMIPCOINs no sean robados mediante malware de su ordenador.</translation>
+        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMs from being stolen by malware infecting your computer.</source>
+        <translation>Fundamental se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus FDMs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDMIPCOIN&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS FDMIPCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDM&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS FDM&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1548,32 +1548,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 FDMIPCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 FDM</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 FDMIPCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 FDM</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 FDMIPCOIN para anonimizar 10000 FDMIPCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 FDM to anonymize 10000 FDM</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 FDM para anonimizar 10000 FDM</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 FDMIPCOIN para anonimizar 10000 FDMIPCOIN.</translation>
+        <source>This option is moderately fast and will cost about 0.05 FDM to anonymize 10000 FDM</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 FDM para anonimizar 10000 FDM.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 FDMIPCOIN per 10000 FDMIPCOIN you anonymize.</source>
-        <translation>0.1 FDMIPCOIN por 10000 FDMIPCOIN que anonimizas.</translation>
+        <source>0.1 FDM per 10000 FDM you anonymize.</source>
+        <translation>0.1 FDM por 10000 FDM que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1716,16 +1716,16 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming FDMIPCOIN which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de FDMIPCOINs entrantes que serán automáticamente convertidos a zFDM a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming FDM which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de FDMs entrantes que serán automáticamente convertidos a zFDM a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zFDM</source>
         <translation>Porcentaje de zFDM autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough FDMIPCOIN for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes FDMIPCOIN disponibles para este tamaño de billete</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough FDM for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes FDM disponibles para este tamaño de billete</translation>
     </message>
     <message>
         <source>Preferred Automint zFDM Denomination</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>FDMIPCOIN Balances</source>
-        <translation>Balances FDMIPCOIN</translation>
+        <source>FDM Balances</source>
+        <translation>Balances FDM</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1931,8 +1931,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Balances Combinados (incluyendo monedas inmaduras)</translation>
     </message>
     <message>
-        <source>FDMIPCOIN:</source>
-        <translation>FDMIPCOIN:</translation>
+        <source>FDM:</source>
+        <translation>FDM:</translation>
     </message>
     <message>
         <source>zFDM:</source>
@@ -2064,12 +2064,12 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>FDMIPCOIN which were anonymized via Zerocin Protocol</source>
-        <translation>FDMIPCOIN que fueron anonimizados mediante Protocolo Zerocoin</translation>
+        <source>FDM which were anonymized via Zerocin Protocol</source>
+        <translation>FDM que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin FDMIPCOIN (zFDM)</source>
-        <translation>Zerocoin FDMIPCOIN (zFDM)</translation>
+        <source>Zerocoin FDM (zFDM)</source>
+        <translation>Zerocoin FDM (zFDM)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2100,8 +2100,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Disponible para Creación de moneda:</translation>
     </message>
     <message>
-        <source>0.000 000 00 FDMIPCOIN</source>
-        <translation>0.000 000 00 FDMIPCOIN</translation>
+        <source>0.000 000 00 FDM</source>
+        <translation>0.000 000 00 FDM</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -3131,8 +3131,8 @@ Por favor tenga paciencia...</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 FDMIPCOIN</source>
-        <translation>0 FDMIPCOIN</translation>
+        <source>0 FDM</source>
+        <translation>0 FDM</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3183,12 +3183,12 @@ Por favor tenga paciencia...</translation>
         <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while "at least" pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uFDMIPCOINs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uFDMIPCOINs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uFDMIPCOINs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMs in fee,&lt;br /&gt;while "at least" pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uFDMs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uFDMs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uFDMs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while "total at least" pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uFDMIPCOINs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uFDMIPCOINs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uFDMIPCOINs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMs in fee,&lt;br /&gt;while "total at least" pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uFDMs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uFDMs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uFDMs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Fundamental transactions than the network can process.</source>
@@ -3239,8 +3239,8 @@ Por favor tenga paciencia...</translation>
         <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
-        <source>Anonymized FDMIPCOIN</source>
-        <translation>FDMIPCOIN anonimizados</translation>
+        <source>Anonymized FDM</source>
+        <translation>FDM anonimizados</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -4231,8 +4231,8 @@ Por favor tenga paciencia...</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 FDMIPCOIN.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 FDMIPCOIN.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 FDM.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 FDM.</translation>
     </message>
 </context>
 <context>
@@ -4392,12 +4392,12 @@ Por favor tenga paciencia...</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en FDMIPCOIN/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en FDM/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en FDMIPCOIN/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en FDM/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4528,12 +4528,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "Fundamental Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FDMIPCOIN.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 FDMIPCOIN.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FDM.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 FDM.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 FDMIPCOIN.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 FDMIPCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 FDM.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 FDM.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4580,8 +4580,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Fundamental Alert" admin@foo.com
         <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
-        <source>(22123 could be used only on mainnet)</source>
-        <translation>(22123 puede ser utilizado solo en mainnet)</translation>
+        <source>(32123 could be used only on mainnet)</source>
+        <translation>(32123 puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4592,8 +4592,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Fundamental Alert" admin@foo.com
         <translation>(predeterminado: 1)</translation>
     </message>
     <message>
-        <source>(must be 22123 for mainnet)</source>
-        <translation>(debe ser 22123 para un mainnet)</translation>
+        <source>(must be 32123 for mainnet)</source>
+        <translation>(debe ser 32123 para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4836,8 +4836,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Fundamental Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in FDMIPCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en FDMIPCOIN/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in FDM/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en FDM/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

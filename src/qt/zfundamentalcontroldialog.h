@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZFDMIPCOINCONTROLDIALOG_H
-#define ZFDMIPCOINCONTROLDIALOG_H
+#ifndef ZFDMCONTROLDIALOG_H
+#define ZFDMCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZFDMIPCOINCONTROLDIALOG_H
+#endif // ZFDMCONTROLDIALOG_H

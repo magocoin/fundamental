@@ -135,7 +135,7 @@
          <item>
           <widget class="QLabel" name="percentage_label">
            <property name="toolTip">
-            <string>Percentage of incoming FDMIPCOIN which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</string>
+            <string>Percentage of incoming FDM which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</string>
            </property>
            <property name="text">
             <string>Percentage of autominted zFDM</string>
@@ -168,7 +168,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Wait with automatic conversion to Zerocoin until enough FDMIPCOIN for this denomination is available</string>
+            <string>Wait with automatic conversion to Zerocoin until enough FDM for this denomination is available</string>
            </property>
            <property name="text">
             <string>Preferred Automint zFDM Denomination</string>
@@ -184,7 +184,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Wait with automatic conversion to Zerocoin until enough FDMIPCOIN for this denomination is available</string>
+            <string>Wait with automatic conversion to Zerocoin until enough FDM for this denomination is available</string>
            </property>
            <property name="maxVisibleItems">
             <number>9</number>

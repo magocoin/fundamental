@@ -54,13 +54,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x0000067a3c37f579c6757e5869956ee805e9cf3999264eee3397ebb8371c1ec5"));
+    (0, uint256("0x"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1537224730, // * UNIX timestamp of last checkpoint block
-    0,    // * total number of transactions between genesis and last checkpoint
+    //1539223591, // * UNIX timestamp of last checkpoint block
+    //0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    100        // * estimated number of transactions per day after checkpoint
+    //100        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -100,12 +100,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x4d;
-        pchMessageStart[1] = 0x41;
-        pchMessageStart[2] = 0x47;
-        pchMessageStart[3] = 0x4f;
+        pchMessageStart[0] = 0x46;
+        pchMessageStart[1] = 0x44;
+        pchMessageStart[2] = 0x4D;
+        pchMessageStart[3] = 0x43;
         vAlertPubKey = ParseHex("0317dc37cb1011c0a162fc113358cdad2a12b85a0f841c4c48346bd85f45ec5c1d");
-        nDefaultPort = 22123;
+        nDefaultPort = 32123;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Fundamental starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -116,16 +116,16 @@ public:
         nTargetTimespan = 1 * 90; // Fundamental: 1.5 minutes
         nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 288)
         nTargetSpacing = 1 * 60;  // Fundamental: 60 Seconds
-        nMaturity = 59;
+        nMaturity = 201;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 30000000 * COIN;
+        nMaxMoneyOut = 31000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 288;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 289;
         nAccumulatorStartHeight = 1;
-        nZerocoinStartTime = 1537224730; // 17 - sept - 2018
+        nZerocoinStartTime = 1539223591; // 10 - OCT - 2018
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -141,7 +141,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Fundamental ve la luz";
+        const char* pszTimestamp = "Fundamental test release";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -152,10 +152,10 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1537224730;
+        genesis.nTime = 1539223591;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 6383846;
-     /**  if(genesis.GetHash() != uint256("0x"))
+        if(genesis.GetHash() != uint256("0x"))
                                      {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -183,19 +183,19 @@ public:
                            //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); //first this, then comment this line out an
                            printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str()); //improvisedo find merkle root
 
-                       }*/
+                       
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000067a3c37f579c6757e5869956ee805e9cf3999264eee3397ebb8371c1ec5"));
-        assert(genesis.hashMerkleRoot == uint256("0x92f6e413b5450f214e896a32dab91bf85b7fc9cf47fe9751183b20a345a73f76"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
     		 vSeeds.push_back(CDNSSeedData("149.28.64.95", "149.28.64.95"));             // seed 1
          //vSeeds.push_back(CDNSSeedData("seed2.fundamental.net", "seed2.fundamental.net"));             // seed2
          //vSeeds.push_back(CDNSSeedData("chain.fundamental.net", "chain.fundamental.net"));             // explorer
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 50); // M
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 140); // y
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 110); // m
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 35); // F
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 35); // F
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 95); // f
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0xff)(0x2D)(0x25)(0x73).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0xff)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md 1135

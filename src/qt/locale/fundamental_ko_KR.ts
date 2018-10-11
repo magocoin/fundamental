@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMIPCOINs from being stolen by malware infecting your computer.</source>
-        <translation>Fundamental는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 FDMIPCOINs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMs from being stolen by malware infecting your computer.</source>
+        <translation>Fundamental는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 FDMs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDMIPCOIN&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 FDMIPCOIN를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDM&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 FDM를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 FDMIPCOIN 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 FDM 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 FDMIPCOIN 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 FDM 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 FDMIPCOIN 익명화에 약 ~0.025 FDMIPCOIN의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 FDM to anonymize 10000 FDM</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 FDM 익명화에 약 ~0.025 FDM의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 FDMIPCOIN 익명화에 약 0.05 FDMIPCOIN의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 FDM to anonymize 10000 FDM</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 FDM 익명화에 약 0.05 FDM의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 FDMIPCOIN per 10000 FDMIPCOIN you anonymize.</source>
-        <translation>10000 FDMIPCOIN 익명화에 0.1 FDMIPCOIN 가 듭니다.</translation>
+        <source>0.1 FDM per 10000 FDM you anonymize.</source>
+        <translation>10000 FDM 익명화에 0.1 FDM 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1716,16 +1716,16 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Percentage of incoming FDMIPCOIN which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
-        <translation>FDMIPCOIN수신시 자동변환 zFDM 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming FDM which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
+        <translation>FDM수신시 자동변환 zFDM 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zFDM</source>
         <translation>자동 변환되는 zFDM 퍼센트</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough FDMIPCOIN for this denomination is available</source>
-        <translation>이 디노미네이션의 FDMIPCOIN가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough FDM for this denomination is available</source>
+        <translation>이 디노미네이션의 FDM가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
         <source>Preferred Automint zFDM Denomination</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Form</translation>
     </message>
     <message>
-        <source>FDMIPCOIN Balances</source>
-        <translation>FDMIPCOIN 잔액</translation>
+        <source>FDM Balances</source>
+        <translation>FDM 잔액</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1931,8 +1931,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
     <message>
-        <source>FDMIPCOIN:</source>
-        <translation>FDMIPCOIN:</translation>
+        <source>FDM:</source>
+        <translation>FDM:</translation>
     </message>
     <message>
         <source>zFDM:</source>
@@ -2064,12 +2064,12 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>FDMIPCOIN which were anonymized via Zerocin Protocol</source>
-        <translation>제로코인 프로토콜을 통해 익명화된 FDMIPCOIN</translation>
+        <source>FDM which were anonymized via Zerocin Protocol</source>
+        <translation>제로코인 프로토콜을 통해 익명화된 FDM</translation>
     </message>
     <message>
-        <source>Zerocoin FDMIPCOIN (zFDM)</source>
-        <translation>제로코인 FDMIPCOIN (zFDM)</translation>
+        <source>Zerocoin FDM (zFDM)</source>
+        <translation>제로코인 FDM (zFDM)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2081,7 +2081,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>zFDM로 변환할 FDMIPCOIN 수량을 입력하세요.</translation>
+        <translation>zFDM로 변환할 FDM 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2100,8 +2100,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>생성 가능한 수량 :</translation>
     </message>
     <message>
-        <source>0.000 000 00 FDMIPCOIN</source>
-        <translation>0.000 000 00 FDMIPCOIN</translation>
+        <source>0.000 000 00 FDM</source>
+        <translation>0.000 000 00 FDM</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2181,7 +2181,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     </message>
     <message>
         <source>The Fundamental address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>FDMIPCOIN를 전송할 Fundamental 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>FDM를 전송할 Fundamental 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3132,8 +3132,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 FDMIPCOIN</source>
-        <translation>0 FDMIPCOIN</translation>
+        <source>0 FDM</source>
+        <translation>0 FDM</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3184,12 +3184,12 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while "at least" pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uFDMIPCOINs로 설정되고,&lt;br /&gt;1000 uFDMIPCOINs 안에는 최소 "킬로바이트당" 250 uFDMIPCOINs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMs in fee,&lt;br /&gt;while "at least" pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uFDMs로 설정되고,&lt;br /&gt;1000 uFDMs 안에는 최소 "킬로바이트당" 250 uFDMs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while "total at least" pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uFDMIPCOINs로 설정되고,&lt;br /&gt;1000 uFDMIPCOINs 안에는 전체에서 최소 "킬로바이트당" 250 uFDMIPCOINs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMs in fee,&lt;br /&gt;while "total at least" pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uFDMs로 설정되고,&lt;br /&gt;1000 uFDMs 안에는 전체에서 최소 "킬로바이트당" 250 uFDMs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Fundamental transactions than the network can process.</source>
@@ -3240,8 +3240,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized FDMIPCOIN</source>
-        <translation>익명화 FDMIPCOIN</translation>
+        <source>Anonymized FDM</source>
+        <translation>익명화 FDM</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3962,7 +3962,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>zFDM로 변환된 FDMIPCOIN</translation>
+        <translation>zFDM로 변환된 FDM</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
@@ -3970,7 +3970,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zFDM로 전송받은 FDMIPCOIN</translation>
+        <translation>zFDM로 전송받은 FDM</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
@@ -4097,7 +4097,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zFDM로 전송받은 FDMIPCOIN</translation>
+        <translation>zFDM로 전송받은 FDM</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4233,8 +4233,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 FDMIPCOIN.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 FDMIPCOIN로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 FDM.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 FDM로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4394,12 +4394,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (FDMIPCOIN/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (FDM/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (FDMIPCOIN/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (FDM/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4526,12 +4526,12 @@ rpcpassword=%s
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FDMIPCOIN.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 FDMIPCOIN과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FDM.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 FDM과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 FDMIPCOIN.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 FDMIPCOIN와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 FDM.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 FDM와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4578,8 +4578,8 @@ rpcpassword=%s
         <translation>환경설정에서 masternodeprivkey를 지정해야 합니다. 도움말을 참조하십시오.</translation>
     </message>
     <message>
-        <source>(22123 could be used only on mainnet)</source>
-        <translation>(22123 은 메인넷에서만 사용될 수 있습니다)</translation>
+        <source>(32123 could be used only on mainnet)</source>
+        <translation>(32123 은 메인넷에서만 사용될 수 있습니다)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4590,8 +4590,8 @@ rpcpassword=%s
         <translation>(기본값: 1)</translation>
     </message>
     <message>
-        <source>(must be 22123 for mainnet)</source>
-        <translation>(메인넷 일경우 22123)</translation>
+        <source>(must be 32123 for mainnet)</source>
+        <translation>(메인넷 일경우 32123)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4834,8 +4834,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in FDMIPCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (FDMIPCOIN/kB) (기본값: %s)</translation>
+        <source>Fee (in FDM/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (FDM/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

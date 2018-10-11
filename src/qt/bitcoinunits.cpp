@@ -19,7 +19,7 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(FDMIPCOIN);
+    unitlist.append(FDM);
     unitlist.append(mFDM);
     unitlist.append(uFDM);
     return unitlist;
@@ -28,7 +28,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case FDMIPCOIN:
+    case FDM:
     case mFDM:
     case uFDM:
         return true;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case FDMIPCOIN:
-        return QString("goss");
+    case FDM:
+        return QString("FDM");
     case mFDM:
-        return QString("mgoss");
+        return QString("mFDM");
     case uFDM:
-        return QString::fromUtf8("ugoss");
+        return QString::fromUtf8("uFDM");
     default:
         return QString("???");
     }
@@ -55,7 +55,7 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case FDMIPCOIN:
+        case FDM:
             return QString("FDM");
         case mFDM:
             return QString("mFDM");
@@ -66,7 +66,7 @@ QString BitcoinUnits::name(int unit)
         }
     } else {
         switch (unit) {
-        case FDMIPCOIN:
+        case FDM:
             return QString("tFDM");
         case mFDM:
             return QString("mtFDM");
@@ -82,18 +82,18 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case FDMIPCOIN:
-            return QString("FDMIPCOIN");
+        case FDM:
+            return QString("FDM");
         case mFDM:
-            return QString("Milli-FDMIPCOIN (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-FDM (1 / 1" THIN_SP_UTF8 "000)");
         case uFDM:
-            return QString("Micro-FDMIPCOIN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-FDM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case FDMIPCOIN:
+        case FDM:
             return QString("TestFDMs");
         case mFDM:
             return QString("Milli-TestFDM (1 / 1" THIN_SP_UTF8 "000)");
@@ -108,7 +108,7 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case FDMIPCOIN:
+    case FDM:
         return 100000000;
     case mFDM:
         return 100000;
@@ -122,7 +122,7 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case FDMIPCOIN:
+    case FDM:
         return 8;
     case mFDM:
         return 5;

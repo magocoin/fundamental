@@ -176,7 +176,7 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMIPCOINs from being stolen by malware infecting your computer.</source>
+        <source>Fundamental will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FDMs from being stolen by malware infecting your computer.</source>
         <translation>Fundamental сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Fundamental от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDMIPCOIN&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ FDMIPCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDM&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ FDM&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 FDMIPCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 FDM</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FDMIPCOIN</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 FDMIPCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FDM</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 FDM</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 FDMIPCOIN за да скриете 10000 FDMIPCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 FDM to anonymize 10000 FDM</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 FDM за да скриете 10000 FDM</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FDMIPCOIN to anonymize 10000 FDMIPCOIN</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 FDMIPCOIN за да скриете 10000 FDMIPCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 FDM to anonymize 10000 FDM</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 FDM за да скриете 10000 FDM</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на FDMIPCOIN. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на FDM. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 FDMIPCOIN per 10000 FDMIPCOIN you anonymize.</source>
-        <translation>0.1 FDMIPCOIN за 10000 скрити FDMIPCOIN</translation>
+        <source>0.1 FDM per 10000 FDM you anonymize.</source>
+        <translation>0.1 FDM за 10000 скрити FDM</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1712,16 +1712,16 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
 https://www.transifex.com/fundamental-project/fundamental-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming FDMIPCOIN which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите FDMIPCOIN, който автоматично да се конвертира в zFDM посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming FDM which get automatically converted to zFDM via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите FDM, който автоматично да се конвертира в zFDM посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zFDM</source>
         <translation>Процент автоматично сечени zFDM</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough FDMIPCOIN for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zFDM докато не се съберат достатъчно FDMIPCOIN за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough FDM for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zFDM докато не се съберат достатъчно FDM за тази деноминация</translation>
     </message>
     <message>
         <source>Preferred Automint zFDM Denomination</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>От</translation>
     </message>
     <message>
-        <source>FDMIPCOIN Balances</source>
-        <translation>FDMIPCOIN Баланс</translation>
+        <source>FDM Balances</source>
+        <translation>FDM Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>FDMIPCOIN:</source>
-        <translation>FDMIPCOIN:</translation>
+        <source>FDM:</source>
+        <translation>FDM:</translation>
     </message>
     <message>
         <source>zFDM:</source>
@@ -2060,12 +2060,12 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>FDMIPCOIN which were anonymized via Zerocin Protocol</source>
-        <translation>FDMIPCOIN скрити посредством Зерокойн протокола</translation>
+        <source>FDM which were anonymized via Zerocin Protocol</source>
+        <translation>FDM скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin FDMIPCOIN (zFDM)</source>
-        <translation>Zerocoin FDMIPCOIN (zFDM)</translation>
+        <source>Zerocoin FDM (zFDM)</source>
+        <translation>Zerocoin FDM (zFDM)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2077,7 +2077,7 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко FDMIPCOIN  да се конвертират в zFDM</translation>
+        <translation>Въведете колко FDM  да се конвертират в zFDM</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2096,8 +2096,8 @@ https://www.transifex.com/fundamental-project/fundamental-project-translations</
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 FDMIPCOIN</source>
-        <translation>0.000 000 00 FDMIPCOIN</translation>
+        <source>0.000 000 00 FDM</source>
+        <translation>0.000 000 00 FDM</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 FDMIPCOIN</source>
-        <translation>0 FDMIPCOIN</translation>
+        <source>0 FDM</source>
+        <translation>0 FDM</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,12 +3179,12 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while "at least" pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uFDMIPCOIN и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uFDMIPCOIN входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uFDMIPCOIN. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMs in fee,&lt;br /&gt;while "at least" pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uFDM и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uFDM входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uFDM. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uFDMIPCOINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMIPCOINs in fee,&lt;br /&gt;while "total at least" pays 1000 uFDMIPCOINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uFDMIPCOIN и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uFDMIPCOIN входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uFDMIPCOIN. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uFDMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFDMs in fee,&lt;br /&gt;while "total at least" pays 1000 uFDMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uFDM и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uFDM входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uFDM. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Fundamental transactions than the network can process.</source>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized FDMIPCOIN</source>
-        <translation>Анонимизиран FDMIPCOIN</translation>
+        <source>Anonymized FDM</source>
+        <translation>Анонимизиран FDM</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3296,7 +3296,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Invalid Fundamental address</source>
-        <translation>Предупреждение: Невалиден FDMIPCOIN адрес</translation>
+        <translation>Предупреждение: Невалиден FDM адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3956,7 +3956,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран FDMIPCOIN във zFDM</translation>
+        <translation>Конвертиран FDM във zFDM</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
@@ -3964,7 +3964,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен FDMIPCOIN от zFDM</translation>
+        <translation>Получен FDM от zFDM</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
@@ -3972,7 +3972,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zFDM в FDMIPCOIN</translation>
+        <translation>Конвертирани zFDM в FDM</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -4087,7 +4087,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен FDMIPCOIN от zFDM</translation>
+        <translation>Получен FDM от zFDM</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 FDMIPCOIN.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 FDMIPCOIN.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 FDM.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 FDM.</translation>
     </message>
 </context>
 <context>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в FDMIPCOIN/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в FDM/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FDMIPCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в FDMIPCOIN/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in FDM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в FDM/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

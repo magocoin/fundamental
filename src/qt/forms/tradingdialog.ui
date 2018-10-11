@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FDMIPCOINSupply">
+    <widget class="QLabel" name="FDMSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="FDMIPCOINDemand">
+    <widget class="QLabel" name="FDMDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyFDMIPCOIN">
+    <widget class="QPushButton" name="BuyFDM">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy FDMIPCOIN</string>
+      <string>Buy FDM</string>
      </property>
      <property name="icon">
       <iconset resource="../fundamental.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>FDMIPCOIN</string>
+      <string>FDM</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>FDMIPCOIN</string>
+      <string>FDM</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputFDMIPCOIN">
+    <widget class="QLineEdit" name="UnitsInputFDM">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellFDMIPCOINBTN">
+    <widget class="QPushButton" name="SellFDMBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell FDMIPCOIN</string>
+      <string>Sell FDM</string>
      </property>
      <property name="icon">
       <iconset resource="../fundamental">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>FDMIPCOIN Available:</string>
+         <string>FDM Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="FDMIPCOINAvailableLabel">
+       <widget class="QLabel" name="FDMAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelFDMIPCOIN">
+       <widget class="QLabel" name="labelFDM">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>FDMIPCOIN</string>
+         <string>FDM</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FDMIPCOINBalanceLabel">
+    <widget class="QLabel" name="FDMBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>FDMIPCOIN Balance:</string>
+      <string>FDM Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FDMIPCOINAvailableLabel_2">
+    <widget class="QLabel" name="FDMAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>FDMIPCOIN Available:</string>
+      <string>FDM Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>FDMIPCOIN Pending:</string>
+      <string>FDM Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FDMIPCOINPendingLabel">
+    <widget class="QLabel" name="FDMPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex FDMIPCOIN Deposit Address:</string>
+      <string>Bittrex FDM Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">

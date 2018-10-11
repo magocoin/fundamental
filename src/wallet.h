@@ -80,28 +80,28 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 FDMIPCOIN at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 FDM at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
 // Possible states for zFDM send
 enum ZerocoinSpendStatus {
-    ZFDMIPCOIN_SPEND_OKAY = 0,                            // No error
-    ZFDMIPCOIN_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZFDMIPCOIN_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZFDMIPCOIN_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZFDMIPCOIN_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZFDMIPCOIN_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZFDMIPCOIN_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZFDMIPCOIN_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZFDMIPCOIN_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZFDMIPCOIN_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZFDMIPCOIN_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZFDMIPCOIN_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZFDMIPCOIN_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZFDMIPCOIN_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZFDMIPCOIN_SPENT_USED_ZFDMIPCOIN = 14                       // Coin has already been spend
+    ZFDM_SPEND_OKAY = 0,                            // No error
+    ZFDM_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZFDM_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZFDM_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZFDM_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZFDM_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZFDM_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZFDM_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZFDM_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZFDM_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZFDM_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZFDM_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZFDM_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZFDM_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZFDM_SPENT_USED_ZFDM = 14                       // Coin has already been spend
 };
 
 struct CompactTallyItem {

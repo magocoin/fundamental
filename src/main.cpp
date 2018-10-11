@@ -2589,7 +2589,7 @@ void ThreadScriptCheck()
     scriptcheckqueue.Thread();
 }
 
-void RecalculateZFDMIPCOINMinted()
+void RecalculateZFDMMinted()
 {
     CBlockIndex *pindex = chainActive[Params().Zerocoin_AccumulatorStartHeight()];
     int nHeightEnd = chainActive.Height();
@@ -2621,7 +2621,7 @@ void RecalculateZFDMIPCOINMinted()
     pblocktree->Flush();
 }
 
-void RecalculateZFDMIPCOINSpent()
+void RecalculateZFDMSpent()
 {
     CBlockIndex* pindex = chainActive[Params().Zerocoin_AccumulatorStartHeight()];
     while (true) {
@@ -2658,7 +2658,7 @@ void RecalculateZFDMIPCOINSpent()
     pblocktree->Flush();
 }
 
-bool RecalculateFDMIPCOINSupply(int nHeightStart)
+bool RecalculateFDMSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -2895,9 +2895,9 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     std::list<libzerocoin::CoinDenomination> listSpends = ZerocoinSpendListFromBlock(block);
 
     if (!fVerifyingBlocks && pindex->nHeight == Params().Zerocoin_StartHeight() + 1) {
-        RecalculateZFDMIPCOINMinted();
-        RecalculateZFDMIPCOINSpent();
-        RecalculateFDMIPCOINSupply(1);
+        RecalculateZFDMMinted();
+        RecalculateZFDMSpent();
+        RecalculateFDMSupply(1);
     }
 
     // Initialize zerocoin supply to the supply from previous block
@@ -3098,7 +3098,7 @@ void static UpdateTip(CBlockIndex* pindexNew)
 {
     chainActive.SetTip(pindexNew);
 
-    // If turned on AutoZeromint will automatically convert FDMIPCOIN to zFDM
+    // If turned on AutoZeromint will automatically convert FDM to zFDM
     if (pwalletMain->isZeromintEnabled ())
         pwalletMain->AutoZeromint ();
 
