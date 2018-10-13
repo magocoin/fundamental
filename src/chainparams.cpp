@@ -116,14 +116,14 @@ public:
         nTargetTimespan = 1 * 90; // Fundamental: 1.5 minutes
         nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 288)
         nTargetSpacing = 1 * 60;  // Fundamental: 60 Seconds
-        nMaturity = 201;
+        nMaturity = 61;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 31000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 288;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 289;
+        nZerocoinStartHeight = 389;
         nAccumulatorStartHeight = 1;
         nZerocoinStartTime = 1539223591; // 10 - OCT - 2018
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
