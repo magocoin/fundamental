@@ -113,12 +113,12 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 90; // Fundamental: 1.5 minutes
-        nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 288)
-        nTargetSpacing = 1 * 60;  // Fundamental: 60 Seconds
-        nMaturity = 61;
+        nTargetTimespan = 1 * 60; // Fundamental: 1 Day
+        nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 389)
+        nTargetSpacing = 90;  // Fundamental: 90 Seconds
+        nMaturity = 60;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 31000000 * COIN;
+        nMaxMoneyOut = 18000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 389;
@@ -189,10 +189,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000003213b29237e24cc4f6f079417818fa0c8e8177b083145eb9d82686d7cc0"));
         assert(genesis.hashMerkleRoot == uint256("0x236c48aa3b7037a0813e809107b25ffb0df007b425d5e23073c43dfdbc9879dd"));
 
-         vSeeds.push_back(CDNSSeedData("149.28.64.95", "149.28.64.95"));             // seed 1
-         vSeeds.push_back(CDNSSeedData("35.237.77.161", "35.237.77.161"));             // seed2
-         vSeeds.push_back(CDNSSeedData("45.76.70.100", "45.76.70.100"));             // explorer
-         vSeeds.push_back(CDNSSeedData("45.63.60.167", "45.63.60.167"));
+         vSeeds.push_back(CDNSSeedData("149.28.64.95", "149.28.64.95"));             // seed 
+         vSeeds.push_back(CDNSSeedData("45.76.70.100", "45.76.70.100"));             // seed2
+         vSeeds.push_back(CDNSSeedData("45.63.60.167", "45.63.60.167"));          // explorer
          vSeeds.push_back(CDNSSeedData("149.28.98.168", "149.28.98.168"));
 
 
