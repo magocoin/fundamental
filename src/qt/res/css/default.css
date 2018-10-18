@@ -231,7 +231,7 @@ background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#818181;
+color:#1a1a1a;
 }
 
 QComboBox QAbstractItemView::item {
@@ -1006,7 +1006,9 @@ min-height:35px;
 QWidget .QFrame#frame .QLabel#labelImmature { /* Immature Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
-margin-left:0px;
+font-weight:bold;
+color:#fff;
+margin-left:0px
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchImmature { /* Watch-only Immature Balance */
