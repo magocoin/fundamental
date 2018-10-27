@@ -54,13 +54,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x000003213b29237e24cc4f6f079417818fa0c8e8177b083145eb9d82686d7cc0"));
+    (0, uint256("0x"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1539223591, // * UNIX timestamp of last checkpoint block
-    0,    // * total number of transactions between genesis and last checkpoint
+    //1540605624, // * UNIX timestamp of last checkpoint block
+    //0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    100        // * estimated number of transactions per day after checkpoint
+    //100        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -114,18 +114,18 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 24 * 60 * 60; // Fundamental: 1 Day
-        nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 389)
+        nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 288)
         nTargetSpacing = 90;  // Fundamental: 90 Seconds
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 18000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 389;
+        nLastPOWBlock = 288;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 390;
+        nZerocoinStartHeight = 289;
         nAccumulatorStartHeight = 1;
-        nZerocoinStartTime = 1539223591; // 10 - OCT - 2018
+        nZerocoinStartTime = 1540605624; // 26 - OCT - 2018
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -141,7 +141,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Fundamental test release";
+        const char* pszTimestamp = "VOLTATILITY OF BITCOIN REDUCED 53% IN THE PAST 30 DAYS";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -152,10 +152,10 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1539223591;
+        genesis.nTime = 1540605624;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 7834389;
-        /**if(genesis.GetHash() != uint256("0x"))
+        genesis.nNonce =;
+        if(genesis.GetHash() != uint256("0x"))
                                      {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -180,14 +180,14 @@ public:
                            printf("genesis.nTime = %u \n", genesis.nTime);
                            printf("genesis.nNonce = %u \n", genesis.nNonce);
                            printf("genesis.nVersion = %u \n", genesis.nVersion);
-                           //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); //first this, then comment this line out an
-                           printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str()); //improvisedo find merkle root
+                           printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); //first this, then comment this line out an
+                           //printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str()); //improvisedo find merkle root
                           } */
                        
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000003213b29237e24cc4f6f079417818fa0c8e8177b083145eb9d82686d7cc0"));
-        assert(genesis.hashMerkleRoot == uint256("0x236c48aa3b7037a0813e809107b25ffb0df007b425d5e23073c43dfdbc9879dd"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
          vSeeds.push_back(CDNSSeedData("149.28.64.95", "149.28.64.95"));             // seed 
          vSeeds.push_back(CDNSSeedData("45.76.70.100", "45.76.70.100"));             // seed2
@@ -218,8 +218,8 @@ public:
         nPoolMaxTransactions = 3;
         //strSporkKey = "0459eede7626441f7802af2736cb3a4aeb3e1f95070cde39d068a4f16525ee8fdd3c075f29f9e115aeb91952239194aa6ac19765574fed8a0d7f174f2b450e9630";
 		    strSporkKey = "03440f6ca649bd3bc2303d38cacdca2d7301bb73ee705e245aab4bb20dbc6a0cdb";
-        strObfuscationPoolDummyAddress = "GfLRuhBWpz8N2Hp4t6zEmSKYEqL2dpmsqu";
-        nStartMasternodePayments = 1536611660 + 6000; //Wed, 25 Jun 2014 20:36:16 GMT
+        strObfuscationPoolDummyAddress = "FEQcc5XUVzhGthEY3UnJ1d8vWy7aLJsGNB";
+        nStartMasternodePayments = 1540605624  + 6000; 
 
         /** Zerocoin */
         zerocoinModulus = "0xc95577b6dce0049b0a20c779af38079355abadde1a1d80c353f6cb697a7ae5a087bad39caa5798478551d0f9d91e6267716506f32412de1d19d17588765eb9502b85c6a18abdb05791cfd8b734e960281193705eeece210920cc922b3af3ceb178bf12c22eb565d5767fbf19545639be8953c2c38ffad41f3371e4aac750ac2d7bd614b3faabb453081d5d88fdbb803657a980bc93707e4b14233a2358c97763bf28f7c233206071477e8b371f229bc9ce7d6ef0ed7163aa5dfe13bc15f7816348b328fa2c1e69d5c88f7b94cee7829d56d1842d77d7bb8692e9fc7b7db059836500de8d57eb43c345feb58671503b932829112941367996b03871300f25efb5";
@@ -309,7 +309,7 @@ public:
 
         nPoolMaxTransactions = 2;
         strSporkKey = "04188441e39d99aa69068ee07d26980f459b84465bbd765c6ee15d1aec5b76b5aebb01b24be184a1d3a12af61276549d96cc9499d909f8afc183132837d18d643d";
-        strObfuscationPoolDummyAddress = "xp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
+        strObfuscationPoolDummyAddress = "FGtbxg9UiydcDJX8s2ZpEn4MWY87uYKqjp";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                        // here because we only have a 8 block finalization window on testnet
