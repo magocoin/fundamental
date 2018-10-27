@@ -113,7 +113,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Fundamental: 1 Day
+        nTargetTimespan = 24 * 60 * 60; // Fundamental: 1 Day
         nTargetSpacingSlowLaunch = 10 * 60;  // Fundamental: 10 minutes (Slow launch - Block 389)
         nTargetSpacing = 90;  // Fundamental: 90 Seconds
         nMaturity = 60;
