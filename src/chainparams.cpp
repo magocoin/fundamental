@@ -54,13 +54,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x"));
+    (0, uint256("0x0000077645fd561dfdc3fb525b3c703f9d5730e41a46f8b42cdb378dd23ac0c1"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    //1540605624, // * UNIX timestamp of last checkpoint block
-    //0,    // * total number of transactions between genesis and last checkpoint
+    1540605624, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    //100        // * estimated number of transactions per day after checkpoint
+    100        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -154,45 +154,17 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1540605624;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce =;
-        if(genesis.GetHash() != uint256("0x"))
-                                     {
-                           printf("Searching for genesis block...\n");
-                           uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-                           uint256 thash;
-
-                           while (true)
-                           {
-                               thash = genesis.GetHash();
-                               if (thash <= hashTarget)
-                                   break;
-                               if ((genesis.nNonce & 0xFFF) == 0)
-                               {
-                                   printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(),hashTarget.ToString().c_str());
-                               }
-                               ++genesis.nNonce;
-                               if (genesis.nNonce == 0)
-                               {
-                                   printf("NONCE WRAPPED, incrementing time\n");
-                                   ++genesis.nTime;
-                               }
-                           
-                           printf("genesis.nTime = %u \n", genesis.nTime);
-                           printf("genesis.nNonce = %u \n", genesis.nNonce);
-                           printf("genesis.nVersion = %u \n", genesis.nVersion);
-                           printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); //first this, then comment this line out an
-                           //printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str()); //improvisedo find merkle root
-                          } */
+        genesis.nNonce = 6896682;
                        
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x0000077645fd561dfdc3fb525b3c703f9d5730e41a46f8b42cdb378dd23ac0c1"));
+        assert(genesis.hashMerkleRoot == uint256("0xb3f520467c75c5e4a30a928086728f1f3ce6f3334f989c0fa030e6b05b7f2d75"));
 
-         vSeeds.push_back(CDNSSeedData("149.28.64.95", "149.28.64.95"));             // seed 
-         vSeeds.push_back(CDNSSeedData("45.76.70.100", "45.76.70.100"));             // seed2
-         vSeeds.push_back(CDNSSeedData("45.63.60.167", "45.63.60.167"));          // explorer
-         vSeeds.push_back(CDNSSeedData("149.28.98.168", "149.28.98.168"));
+         vSeeds.push_back(CDNSSeedData("45.32.162.238", "45.32.162.238"));             // seed 
+         vSeeds.push_back(CDNSSeedData("104.156.237.242", "104.156.237.242"));             // seed2
+         vSeeds.push_back(CDNSSeedData("149.28.249.128", "149.28.249.128"));          // seed3
+         vSeeds.push_back(CDNSSeedData("108.61.192.153", "108.61.192.153"));           // seed4
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 35); // F
